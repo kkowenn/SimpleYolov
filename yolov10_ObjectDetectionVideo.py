@@ -1,7 +1,6 @@
 import cv2
-from ultralytics import YOLOv10  # Ensure correct import from yolov10
+from ultralytics import YOLOv10  
 
-# Define your custom labels as per your provided "names"
 custom_labels = {
     0: "person",
     1: "bicycle",
