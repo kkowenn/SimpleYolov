@@ -3,8 +3,6 @@ import time
 from ultralytics import YOLOv10
 import math
 
-
-# Define your custom labels as per your provided "names"
 custom_labels = {
     0: "person",
     1: "bicycle",
